@@ -22,7 +22,6 @@ void main()
 	v2f_color = vec4(in_color, 1);
 }
 ```
-<img align="right" src="capture/vertex_shader.png" width="30%">
 #### Fragment Shader
 ```glsl
 #version 330 core
@@ -37,6 +36,6 @@ void main()
 	out_color = v2f_color;
 }
 ```
-<img align="right" src="capture/fragment_shader.png" width="30%">
+<img src="capture/vertex_shader.png" width="30%"> <img src="capture/fragment_shader.png" width="30%"> 
 
 ### **Camera rotation and translocation**
