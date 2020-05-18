@@ -42,7 +42,7 @@ void main()
 }
 ```
 
-### **Camera rotation and translocation**
+### **Camera rotation and translocation:**
 <div align="center">
 	<img src="capture/camera_rotation.gif" width="45%"> <img src="capture/camera_translocation.gif" width="45%">
 </div>
