@@ -1,4 +1,5 @@
 
+
 # C++ OpenGL 3D Engine
 A basic OpenGL 3D engine to render scenes with binocular vision to drive a 3D display.
 
@@ -39,3 +40,4 @@ void main()
 <img src="capture/vertex_shader.png" width="30%"> <img src="capture/fragment_shader.png" width="30%"> 
 
 ### **Camera rotation and translocation**
+<img src="capture/camera_rotation.gif" width="50%"> <img src="capture/camera_translocation.gif" width="50%"> 
