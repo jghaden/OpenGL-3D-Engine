@@ -37,7 +37,11 @@ void main()
 	out_color = v2f_color;
 }
 ```
-<img src="capture/vertex_shader.png" width="30%"> <img src="capture/fragment_shader.png" width="30%"> 
+<center>
+	<img src="capture/vertex_shader.png" width="45%"> <img src="capture/fragment_shader.png" width="45%">
+</center>
 
 ### **Camera rotation and translocation**
-<img src="capture/camera_rotation.gif" width="45%"> <img src="capture/camera_translocation.gif" width="45%"> 
+<center>
+	<img src="capture/camera_rotation.gif" width="45%"> <img src="capture/camera_translocation.gif" width="45%">
+</center>
