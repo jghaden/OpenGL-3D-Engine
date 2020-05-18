@@ -37,7 +37,7 @@ void main()
 }
 ```
 #### Preview
-<img src=capture/vertex_shader.png" width="48">
-<img src=capture/fragment_shader.png" width="48">
+<img src=capture/vertex_shader.png" width="30%">
+<img src=capture/fragment_shader.png" width="30%">
 
 ### **Camera rotation and translocation**
