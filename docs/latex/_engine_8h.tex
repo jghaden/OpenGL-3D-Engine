@@ -1,0 +1,79 @@
+\hypertarget{_engine_8h}{}\doxysection{C\+:/\+Users/\+Joshua/\+Desktop/\+Code/\+C++/3\+D\+Engine/3\+D\+Engine/inc/\+Engine.h File Reference}
+\label{_engine_8h}\index{C:/Users/Joshua/Desktop/Code/C++/3DEngine/3DEngine/inc/Engine.h@{C:/Users/Joshua/Desktop/Code/C++/3DEngine/3DEngine/inc/Engine.h}}
+
+
+Header for \mbox{\hyperlink{_engine_8cpp}{Engine.\+cpp}}.  
+
+
+{\ttfamily \#include \char`\"{}P\+C\+H.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_engine_8h_a2789ab28bb84a9a9f553c45e4eedbdfd}\label{_engine_8h_a2789ab28bb84a9a9f553c45e4eedbdfd}} 
+\#define {\bfseries B\+U\+F\+F\+E\+R\+\_\+\+O\+F\+F\+S\+ET}(offset)~((void$\ast$)(offset))
+\item 
+\mbox{\Hypertarget{_engine_8h_a327cc178c14d5ca4ae35952679536461}\label{_engine_8h_a327cc178c14d5ca4ae35952679536461}} 
+\#define {\bfseries M\+E\+M\+B\+E\+R\+\_\+\+O\+F\+F\+S\+ET}(s,  m)~((char$\ast$)N\+U\+LL + (offsetof(s,m)))
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_engine_8h_a794bbfbd98d5042e56f65d7d7b9cc2f9}\label{_engine_8h_a794bbfbd98d5042e56f65d7d7b9cc2f9}} 
+void {\bfseries Init} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\Hypertarget{_engine_8h_a362b7a4cecd1bf4a14d731163b3961fa}\label{_engine_8h_a362b7a4cecd1bf4a14d731163b3961fa}} 
+void {\bfseries Init\+GL} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\Hypertarget{_engine_8h_ad4668f3a7f980a3b89cca62675c9c487}\label{_engine_8h_ad4668f3a7f980a3b89cca62675c9c487}} 
+void {\bfseries Init\+G\+L\+EW} ()
+\item 
+\mbox{\Hypertarget{_engine_8h_a9a77f2d52b48b05c733949e83d85d55b}\label{_engine_8h_a9a77f2d52b48b05c733949e83d85d55b}} 
+void {\bfseries Idle\+GL} ()
+\item 
+\mbox{\Hypertarget{_engine_8h_a5bf468f2df511da451bcdc29e419233e}\label{_engine_8h_a5bf468f2df511da451bcdc29e419233e}} 
+void {\bfseries Display\+GL} ()
+\item 
+\mbox{\Hypertarget{_engine_8h_a35d465c61f5a5c64cafca44d58e1e1be}\label{_engine_8h_a35d465c61f5a5c64cafca44d58e1e1be}} 
+void {\bfseries Keyboard\+GL} (unsigned char c, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8h_ae90820ca3c484273dceacd26d8e26974}\label{_engine_8h_ae90820ca3c484273dceacd26d8e26974}} 
+void {\bfseries Keyboard\+Up\+GL} (unsigned char c, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8h_a098c403ed80de711721b990ebc05f41e}\label{_engine_8h_a098c403ed80de711721b990ebc05f41e}} 
+void {\bfseries Special\+GL} (int key, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8h_ac32e6742a81777e72aa15ba7e9cde968}\label{_engine_8h_ac32e6742a81777e72aa15ba7e9cde968}} 
+void {\bfseries Special\+Up\+GL} (int key, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8h_a48e33eb3a24244d979d9e822f1ca240a}\label{_engine_8h_a48e33eb3a24244d979d9e822f1ca240a}} 
+void {\bfseries Mouse\+GL} (int button, int state, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8h_af3d44f1013d473ecb645407492c9d665}\label{_engine_8h_af3d44f1013d473ecb645407492c9d665}} 
+void {\bfseries Motion\+GL} (int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8h_ab387b476fff4985223a786b029712930}\label{_engine_8h_ab387b476fff4985223a786b029712930}} 
+void {\bfseries Reshape\+GL} (int w, int h)
+\item 
+\mbox{\Hypertarget{_engine_8h_aaa3616d6c8fba7915e2fb21e11460d58}\label{_engine_8h_aaa3616d6c8fba7915e2fb21e11460d58}} 
+G\+Luint {\bfseries Load\+Shader} (G\+Lenum shader\+Type, const std\+::string \&shader\+File)
+\item 
+\mbox{\Hypertarget{_engine_8h_aa92a059517e8fca1ffe1e9b45e8a128c}\label{_engine_8h_aa92a059517e8fca1ffe1e9b45e8a128c}} 
+G\+Luint {\bfseries Create\+Shader\+Program} (std\+::vector$<$ G\+Luint $>$ shaders)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header for \mbox{\hyperlink{_engine_8cpp}{Engine.\+cpp}}. 
+
+\begin{DoxyAuthor}{Author}
+Joshua Haden 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+V0.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+03-\/D\+E\+C-\/2019 
+\end{DoxyDate}
+\begin{DoxyAttention}{Attention}
+
+\end{DoxyAttention}

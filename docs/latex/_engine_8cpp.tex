@@ -1,0 +1,185 @@
+\hypertarget{_engine_8cpp}{}\doxysection{C\+:/\+Users/\+Joshua/\+Desktop/\+Code/\+C++/3\+D\+Engine/3\+D\+Engine/src/\+Engine.cpp File Reference}
+\label{_engine_8cpp}\index{C:/Users/Joshua/Desktop/Code/C++/3DEngine/3DEngine/src/Engine.cpp@{C:/Users/Joshua/Desktop/Code/C++/3DEngine/3DEngine/src/Engine.cpp}}
+
+
+Bulk of the 3D Engine.  
+
+
+{\ttfamily \#include \char`\"{}P\+C\+H.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Engine.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Camera.\+h\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_vertex_x_y_z_color}{Vertex\+X\+Y\+Z\+Color}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a794bbfbd98d5042e56f65d7d7b9cc2f9}\label{_engine_8cpp_a794bbfbd98d5042e56f65d7d7b9cc2f9}} 
+void {\bfseries Init} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a362b7a4cecd1bf4a14d731163b3961fa}\label{_engine_8cpp_a362b7a4cecd1bf4a14d731163b3961fa}} 
+void {\bfseries Init\+GL} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\Hypertarget{_engine_8cpp_ad4668f3a7f980a3b89cca62675c9c487}\label{_engine_8cpp_ad4668f3a7f980a3b89cca62675c9c487}} 
+void {\bfseries Init\+G\+L\+EW} ()
+\item 
+\mbox{\Hypertarget{_engine_8cpp_aaa3616d6c8fba7915e2fb21e11460d58}\label{_engine_8cpp_aaa3616d6c8fba7915e2fb21e11460d58}} 
+G\+Luint {\bfseries Load\+Shader} (G\+Lenum shader\+Type, const std\+::string \&shader\+File)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_aa92a059517e8fca1ffe1e9b45e8a128c}\label{_engine_8cpp_aa92a059517e8fca1ffe1e9b45e8a128c}} 
+G\+Luint {\bfseries Create\+Shader\+Program} (std\+::vector$<$ G\+Luint $>$ shaders)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_ab387b476fff4985223a786b029712930}\label{_engine_8cpp_ab387b476fff4985223a786b029712930}} 
+void {\bfseries Reshape\+GL} (int w, int h)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a5bf468f2df511da451bcdc29e419233e}\label{_engine_8cpp_a5bf468f2df511da451bcdc29e419233e}} 
+void {\bfseries Display\+GL} ()
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a9a77f2d52b48b05c733949e83d85d55b}\label{_engine_8cpp_a9a77f2d52b48b05c733949e83d85d55b}} 
+void {\bfseries Idle\+GL} ()
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a35d465c61f5a5c64cafca44d58e1e1be}\label{_engine_8cpp_a35d465c61f5a5c64cafca44d58e1e1be}} 
+void {\bfseries Keyboard\+GL} (unsigned char c, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_ae90820ca3c484273dceacd26d8e26974}\label{_engine_8cpp_ae90820ca3c484273dceacd26d8e26974}} 
+void {\bfseries Keyboard\+Up\+GL} (unsigned char c, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a098c403ed80de711721b990ebc05f41e}\label{_engine_8cpp_a098c403ed80de711721b990ebc05f41e}} 
+void {\bfseries Special\+GL} (int key, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_ac32e6742a81777e72aa15ba7e9cde968}\label{_engine_8cpp_ac32e6742a81777e72aa15ba7e9cde968}} 
+void {\bfseries Special\+Up\+GL} (int key, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a48e33eb3a24244d979d9e822f1ca240a}\label{_engine_8cpp_a48e33eb3a24244d979d9e822f1ca240a}} 
+void {\bfseries Mouse\+GL} (int button, int state, int x, int y)
+\item 
+\mbox{\Hypertarget{_engine_8cpp_af3d44f1013d473ecb645407492c9d665}\label{_engine_8cpp_af3d44f1013d473ecb645407492c9d665}} 
+void {\bfseries Motion\+GL} (int x, int y)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a567a23289d4ea43c37f79565c6ddb170}\label{_engine_8cpp_a567a23289d4ea43c37f79565c6ddb170}} 
+int {\bfseries g\+\_\+i\+Window\+Width} = 800
+\item 
+\mbox{\Hypertarget{_engine_8cpp_ab0ef556b33078ca186030b09baeedad9}\label{_engine_8cpp_ab0ef556b33078ca186030b09baeedad9}} 
+int {\bfseries g\+\_\+i\+Window\+Height} = 600
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a56a2c78c02ca825c624c627197c21c66}\label{_engine_8cpp_a56a2c78c02ca825c624c627197c21c66}} 
+int {\bfseries g\+\_\+i\+Window\+Handle} = 0
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a7b105929250c07e08d72e50c63187524}\label{_engine_8cpp_a7b105929250c07e08d72e50c63187524}} 
+int {\bfseries g\+\_\+W}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a504d744526a12559f7159214ab0a936a}\label{_engine_8cpp_a504d744526a12559f7159214ab0a936a}} 
+int {\bfseries g\+\_\+A}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a05a24584fc45c13004933f52e1896754}\label{_engine_8cpp_a05a24584fc45c13004933f52e1896754}} 
+int {\bfseries g\+\_\+S}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a0c02a87f57f317c297f937d670b8d5d0}\label{_engine_8cpp_a0c02a87f57f317c297f937d670b8d5d0}} 
+int {\bfseries g\+\_\+D}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a65e8e2d57592d3493e89f67e93e1513a}\label{_engine_8cpp_a65e8e2d57592d3493e89f67e93e1513a}} 
+int {\bfseries g\+\_\+Q}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a8ed0b82e7ef394917657cf7bc5058890}\label{_engine_8cpp_a8ed0b82e7ef394917657cf7bc5058890}} 
+int {\bfseries g\+\_\+E}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a0ade70f3aeb6b1b31a3afd7fdbc9dd86}\label{_engine_8cpp_a0ade70f3aeb6b1b31a3afd7fdbc9dd86}} 
+bool {\bfseries g\+\_\+b\+Shift} = false
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a84ed61e40e4d76e6a8b415dca1b8594a}\label{_engine_8cpp_a84ed61e40e4d76e6a8b415dca1b8594a}} 
+glm\+::ivec2 {\bfseries g\+\_\+\+Mouse\+Pos}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a9a40cee349964bc410252873e4a960b1}\label{_engine_8cpp_a9a40cee349964bc410252873e4a960b1}} 
+glm\+::quat {\bfseries g\+\_\+\+Rotation}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a03de4702f0e0db8f4b44c2ee53c9a19b}\label{_engine_8cpp_a03de4702f0e0db8f4b44c2ee53c9a19b}} 
+std\+::clock\+\_\+t {\bfseries g\+\_\+\+Previous\+Ticks}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_af2e6433f9c596f8fbcd70ac195c40571}\label{_engine_8cpp_af2e6433f9c596f8fbcd70ac195c40571}} 
+std\+::clock\+\_\+t {\bfseries g\+\_\+\+Current\+Ticks}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a13ce2dcf44eece8a62be142963531272}\label{_engine_8cpp_a13ce2dcf44eece8a62be142963531272}} 
+\mbox{\hyperlink{class_camera}{Camera}} {\bfseries g\+\_\+\+Camera}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a887f8bb5ae8c1035a7bbe4132ccb49b6}\label{_engine_8cpp_a887f8bb5ae8c1035a7bbe4132ccb49b6}} 
+glm\+::vec3 {\bfseries g\+\_\+\+Initial\+Camera\+Position}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a00fe870573ac97e135319f2bbb56afe2}\label{_engine_8cpp_a00fe870573ac97e135319f2bbb56afe2}} 
+glm\+::quat {\bfseries g\+\_\+\+Initial\+Camera\+Rotation}
+\item 
+\mbox{\hyperlink{struct_vertex_x_y_z_color}{Vertex\+X\+Y\+Z\+Color}} {\bfseries g\+\_\+\+Vertices} \mbox{[}8\mbox{]}
+\item 
+G\+Luint {\bfseries g\+\_\+\+Indices} \mbox{[}36\mbox{]}
+\item 
+\mbox{\Hypertarget{_engine_8cpp_a8b35e66fb90b3abf7dac13a3d7fce566}\label{_engine_8cpp_a8b35e66fb90b3abf7dac13a3d7fce566}} 
+G\+Luint {\bfseries g\+\_\+vao\+Cube} = 0
+\item 
+\mbox{\Hypertarget{_engine_8cpp_ac4c92a89c4cc304eafe565114659137b}\label{_engine_8cpp_ac4c92a89c4cc304eafe565114659137b}} 
+G\+Luint {\bfseries g\+\_\+\+Shader\+Program} = 0
+\item 
+\mbox{\Hypertarget{_engine_8cpp_ab954c4b8a4566e84c1e034e721d81043}\label{_engine_8cpp_ab954c4b8a4566e84c1e034e721d81043}} 
+G\+Lint {\bfseries g\+\_\+uniform\+M\+VP} = -\/1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Bulk of the 3D Engine. 
+
+\begin{DoxyAuthor}{Author}
+Joshua Haden 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+V0.\+0.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+03-\/D\+E\+C-\/2019 
+\end{DoxyDate}
+\begin{DoxyAttention}{Attention}
+
+\end{DoxyAttention}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_engine_8cpp_a977bd0b442955ef725a291fa0365d1aa}\label{_engine_8cpp_a977bd0b442955ef725a291fa0365d1aa}} 
+\index{Engine.cpp@{Engine.cpp}!g\_Indices@{g\_Indices}}
+\index{g\_Indices@{g\_Indices}!Engine.cpp@{Engine.cpp}}
+\doxysubsubsection{\texorpdfstring{g\_Indices}{g\_Indices}}
+{\footnotesize\ttfamily G\+Luint g\+\_\+\+Indices\mbox{[}36\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    0, 1, 2, 2, 3, 0,           }
+\DoxyCodeLine{    7, 4, 5, 5, 6, 7,           }
+\DoxyCodeLine{    6, 5, 2, 2, 1, 6,           }
+\DoxyCodeLine{    7, 0, 3, 3, 4, 7,           }
+\DoxyCodeLine{    7, 6, 1, 1, 0, 7,           }
+\DoxyCodeLine{    3, 2, 5, 5, 4, 3            }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_engine_8cpp_aa21f41c3c72e074c07e9153299c5d313}\label{_engine_8cpp_aa21f41c3c72e074c07e9153299c5d313}} 
+\index{Engine.cpp@{Engine.cpp}!g\_Vertices@{g\_Vertices}}
+\index{g\_Vertices@{g\_Vertices}!Engine.cpp@{Engine.cpp}}
+\doxysubsubsection{\texorpdfstring{g\_Vertices}{g\_Vertices}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertex_x_y_z_color}{Vertex\+X\+Y\+Z\+Color}} g\+\_\+\+Vertices\mbox{[}8\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{ glm::vec3( 1, 1, 1), glm::vec3(1, 1, 1) \}, }
+\DoxyCodeLine{    \{ glm::vec3(-\/1, 1, 1), glm::vec3(0, 1, 1) \}, }
+\DoxyCodeLine{    \{ glm::vec3(-\/1,-\/1, 1), glm::vec3(0, 0, 1) \}, }
+\DoxyCodeLine{    \{ glm::vec3( 1,-\/1, 1), glm::vec3(1, 0, 1) \}, }
+\DoxyCodeLine{    \{ glm::vec3( 1,-\/1,-\/1), glm::vec3(1, 0, 0) \}, }
+\DoxyCodeLine{    \{ glm::vec3(-\/1,-\/1,-\/1), glm::vec3(0, 0, 0) \}, }
+\DoxyCodeLine{    \{ glm::vec3(-\/1, 1,-\/1), glm::vec3(0, 1, 0) \}, }
+\DoxyCodeLine{    \{ glm::vec3( 1, 1,-\/1), glm::vec3(1, 1, 0) \}, }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
