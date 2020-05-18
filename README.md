@@ -1,7 +1,7 @@
 
 
 # C++ OpenGL 3D Engine
-A basic OpenGL 3D engine to render scenes with binocular vision to drive a 3D display.
+An OpenGL 3D engine to render scenes with binocular vision to drive a 3D display.
 
 ## Current Features
 ### **GLSL Shaders:**
