@@ -6,7 +6,7 @@ A basic OpenGL 3D engine to render scenes with binocular vision to drive a 3D di
 ## Current Features
 ### **GLSL Shaders:**
 <div align="center">
-	<img src="capture/vertex_shader.png" width="45%"> <img src="capture/fragment_shader.png" width="45%">
+	<img src="capture/vertex_shader.png" width="45%" alt> <img src="capture/fragment_shader.png" width="45%" alt>
 </div>
 
 #### Vertex Shader
@@ -44,5 +44,5 @@ void main()
 
 ### **Camera rotation and translocation:**
 <div align="center">
-	<img src="capture/camera_rotation.gif" width="45%"> <img src="capture/camera_translocation.gif" width="45%">
+	<img src="capture/camera_rotation.gif" width="45%" alt> <img src="capture/camera_translocation.gif" width="45%" alt>
 </div>
