@@ -40,4 +40,4 @@ void main()
 <img src="capture/vertex_shader.png" width="30%"> <img src="capture/fragment_shader.png" width="30%"> 
 
 ### **Camera rotation and translocation**
-<img src="capture/camera_rotation.gif" width="50%"> <img src="capture/camera_translocation.gif" width="50%"> 
+<img src="capture/camera_rotation.gif" width="45%"> <img src="capture/camera_translocation.gif" width="45%"> 
