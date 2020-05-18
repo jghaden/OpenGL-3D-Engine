@@ -5,6 +5,9 @@ A basic OpenGL 3D engine to render scenes with binocular vision to drive a 3D di
 
 ## Current Features
 ### **GLSL Shader Support:**
+<div align="center">
+	<img src="capture/vertex_shader.png" width="45%"> <img src="capture/fragment_shader.png" width="45%">
+</div>
 #### Vertex Shader
 ```glsl
 #version 330 core
@@ -37,9 +40,6 @@ void main()
 	out_color = v2f_color;
 }
 ```
-<div align="center">
-	<img src="capture/vertex_shader.png" width="45%"> <img src="capture/fragment_shader.png" width="45%">
-</div>
 
 ### **Camera rotation and translocation**
 <div align="center">
