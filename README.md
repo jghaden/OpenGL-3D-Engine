@@ -17,8 +17,6 @@ layout(location = 0) in vec3 in_position;
 layout(location = 0) in vec3 in_color;
 
 out vec4 v2f_color;
-
-// Model, View, Projection (MVP) matrix
 uniform mat4 MVP;
 
 void main()
@@ -31,7 +29,6 @@ void main()
 ```glsl
 #version 330 core
 
-// input color from vertex shader
 in vec4 v2f_color;
 
 layout(location = 0) out vec4 out_color;
