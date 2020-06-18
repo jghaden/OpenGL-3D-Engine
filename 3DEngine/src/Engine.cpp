@@ -69,7 +69,7 @@ GLuint g_ShaderProgram = 0;
 // Model, View, Projection (MVP) matrix
 GLint g_uniformMVP = -1;
 
-void Init(int argc, char* argv[])
+void Init(int &argc, char* argv[])
 {
 	g_PreviousTicks = std::clock();
 	g_A = g_W = g_S = g_D = g_Q = g_E = 0;
@@ -127,7 +127,7 @@ void Init(int argc, char* argv[])
 	glutMainLoop();
 }
 
-void InitGL(int argc, char* argv[])
+void InitGL(int &argc, char* argv[])
 {
 	std::cout << "Initializing OpenGL..." << std::endl;
 

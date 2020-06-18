@@ -16,8 +16,8 @@
 #define BUFFER_OFFSET(offset) ((void*)(offset))
 #define MEMBER_OFFSET(s,m) ((char*)NULL + (offsetof(s,m)))
 
-void Init(int argc, char* argv[]);
-void InitGL(int argc, char* argv[]);
+void Init(int &argc, char* argv[]);
+void InitGL(int &argc, char* argv[]);
 void InitGLEW();
 void IdleGL();
 void DisplayGL();
